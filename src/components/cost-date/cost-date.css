@@ -1,0 +1,34 @@
+.cost-date {
+    display: flex;
+    flex-direction: column;
+    width: 5.5rem;
+    height: 5.5rem;
+    border: 1px solid #ececec;
+    background-color: #2a5b84;
+    color: #fefae1;
+    align-items: center;
+    justify-content: center;
+    transition: all ease-in-out 0.2s;
+    cursor: pointer;
+}
+
+.cost-date:hover {
+    -webkit-box-shadow: 7px 9px 5px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 7px 9px 5px -6px rgba(0, 0, 0, 0.75);
+    box-shadow: 7px 9px 5px -6px rgba(0, 0, 0, 0.75);
+    transform: translateY(-10px);
+}
+
+.cost-date__month {
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+
+.cost-date__year {
+    font-size: 0.75rem;
+}
+
+.cost-date__day {
+    font-size: 1.5rem;
+    font-weight: bold;
+}

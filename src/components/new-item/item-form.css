@@ -1,0 +1,32 @@
+.item-form__controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  text-align: left;
+  flex-direction: column;
+}
+
+.item-form__control label {
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block;
+  cursor: pointer;
+}
+
+.item-form__control input {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 20rem;
+  max-width: 100%;  
+}
+.item-form__actions{
+  display: flex;
+  justify-content: space-around;
+}
+
+.item-form__actions button{
+  width: 120px;
+}
